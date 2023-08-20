@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author: Promise Nwhator
+# Author: Ernest Ampene
 
 def magic_calculation(a, b):
     """Must match given bytecode provided"""
