@@ -3,5 +3,5 @@
 
 def read_file(filename=""):
     """Print the content of a UTF-8 to the standard output"""
-    with open(filename, encoding = "UTF = 8") as f:
+    with open(filename, encoding = "UTF-8") as f:
     print(f.read(), end = "")
