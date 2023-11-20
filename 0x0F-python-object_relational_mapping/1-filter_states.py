@@ -5,7 +5,8 @@ import sys
 
 if __name__ == "__main__":
     # Establishing a connection to the MySQL database
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3], port=3306)
+    db = MySQLdb.connect(host="localhost", user=sys.argv[1]
+                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
     cur = db.cursor()
 
     # Execute the SQL query to select states starting with 'N'
@@ -24,4 +25,3 @@ if __name__ == "__main__":
     # Close the cursor and the database connection to free up memory
     cur.close()
     db.close()
-
