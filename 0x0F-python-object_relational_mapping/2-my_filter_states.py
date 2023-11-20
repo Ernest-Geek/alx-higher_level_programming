@@ -28,4 +28,3 @@ if __name__ == "__main__":
     """Close the cursor and the database connection to free up memory"""
     cur.close()
     db.close()
-
